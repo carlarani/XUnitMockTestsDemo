@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MockingUnitTestsDemoApp.Impl\MockingUnitTestsDemoApp.Impl.csproj" />
   </ItemGroup>
 
